@@ -114,17 +114,17 @@ window.addEventListener("DOMContentLoaded", function () {
         }); 
     })
 
-    $('.galeria .imagens img').click(function(){
+    $('.industria .images .small div img').click(function(){
         var imagemPequenaId = $(this).attr('id');
-        var imagemGrandeId = $('.galeria .banner img').attr('id');
-        var imagemUrl = "Images/Galeria/imagem";
+        var imagemGrandeId = $('.industria .images .big img').attr('id');
+        var imagemUrl = "Images/Industria/banner";
         console.log("clicou" + imagemPequenaId);
 
-        $('.galeria .banner img').attr('id', imagemPequenaId);
-        $('.galeria .banner img').attr('src', imagemUrl + imagemPequenaId + ".webp");
+        $('.industria .images .big img').attr('id', imagemPequenaId);
+        $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".png");
 
         $(this).attr('id', imagemGrandeId);
-        $(this).attr('src',  imagemUrl + imagemGrandeId + ".webp");
+        $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
     });
 
     $('.whatsapp').click(function(){
