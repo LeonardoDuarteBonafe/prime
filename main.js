@@ -1,6 +1,8 @@
 window.addEventListener("DOMContentLoaded", function () {
 
     AOS.init();
+    
+    var isAnimationRunning = false;
 
     var swiper = new Swiper(".swiperEquipe", {
         slidesPerGroup: 1,
@@ -115,16 +117,30 @@ window.addEventListener("DOMContentLoaded", function () {
     })
 
     $('.industria .images .small div img').click(function(){
+        if(!isAnimationRunning){
         var imagemPequenaId = $(this).attr('id');
         var imagemGrandeId = $('.industria .images .big img').attr('id');
         var imagemUrl = "Images/Industria/banner";
         console.log("clicou" + imagemPequenaId);
 
-        $('.industria .images .big img').attr('id', imagemPequenaId);
         $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".png");
+        
+        isAnimationRunning = true;    
+            
+        $('.industria .images .big').addClass('industria-active');
+        var smallImage = $(this).parent();
+        smallImage.addClass('industria-small-active');
+        $('.industria .images .big').on("animationend", function(){
+            $(this).removeClass('industria-active');
+            smallImage.removeClass('industria-small-active');
+            isAnimationRunning = false;
+        });
 
+        $('.industria .images .big img').attr('id', imagemPequenaId);
+        
         $(this).attr('id', imagemGrandeId);
         $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
+        }
     });
 
     $('.whatsapp').click(function(){
