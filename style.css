@@ -199,6 +199,10 @@ header nav .language a img{
     margin: 3px 10%;
 }
 
+header nav .mobile-logo{
+    display: none;
+}
+
 header nav .mobile-menu div{
     width: 32px;
     height: 2px;
@@ -708,12 +712,18 @@ text-align: center;
 .equipe .swiperEquipe .swiper-slide{
     /background-color: aquamarine;
     //width: 20% !important;
-    height: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .equipe .swiperEquipe .swiper-slide .box{
     /*width: 200px;
     height: 250px;*/
+    width: 100% !important;
     /background-color: beige;
     overflow: hidden;
     cursor: pointer;
@@ -737,9 +747,16 @@ text-align: center;
 
 .equipe .swiperEquipe .swiper-slide .box img{
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    width: 100%;
+    width: 100% !important;
     height: 220px;
     object-fit: cover;
+    object-position: top;
+    transition: 1s;
+    transform: scale(0.90);
+}
+
+.equipe .swiperEquipe .swiper-slide .box img:hover{
+    transform: scale(1);
 }
 
 .equipe .swiperEquipe .swiper-slide.swiper-slide-prev,
@@ -1048,6 +1065,7 @@ width: 100% !important;
         width: 200px;
         padding: 20px 0;
         height: 100%;
+        display: block !important;
     }
 
     header .mobile-logo a{
