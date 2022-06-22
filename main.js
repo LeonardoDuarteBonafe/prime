@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function () {
                 slidesPerView: 2,
                 spaceBetween: 20,
             },
-            767: {
+            769: {
                 slidesPerView: 3,
                 spaceBetween: 20,
             },
