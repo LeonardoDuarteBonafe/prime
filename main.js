@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", function () {
         },
     });
 
-    $('.materials .btn-more').click(function(){
+    /*$('.materials .btn-more').click(function(){
         window.location.href = "materials.php";
     })
 
@@ -86,9 +86,9 @@ window.addEventListener("DOMContentLoaded", function () {
             $('.productBox').filter('.'+materialType).fadeIn('1000');
             $('.productBox').not('.'+materialType).hide();
         }
-    }
+    }*/
 
-    $('.materiais .topbar .menu p').click(function(){
+    /*$('.materiais .topbar .menu p').click(function(){
         var id = $(this).attr('id');
         var imageUrl = "Images/Materiais/" + id;
 
@@ -115,7 +115,7 @@ window.addEventListener("DOMContentLoaded", function () {
             $(this).removeClass('active-image');
         }); 
     })
-
+*/
     $('.industria .images .small div img').click(function(){
         if(!isAnimationRunning){
         var imagemPequenaId = $(this).attr('id');
@@ -143,9 +143,9 @@ window.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    $('.whatsapp').click(function(){
+    /*$('.whatsapp').click(function(){
         window.open('https://api.whatsapp.com/send?phone=15615029409&text=Ol%C3%A1%2C+tenho+interesse+no+seu+produto!', '_blank'); 
-    });
+    });*/
 
     class MobileNavbar{
         constructor(mobileMenu, navList, navLinks){
@@ -187,7 +187,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     mobileNavbar.init();
 
-    var gallery_swiper = new Swiper(".gallery-swiper", {
+    /*var gallery_swiper = new Swiper(".gallery-swiper", {
         effect: "coverflow",
         centeredSlides: true,
         slidesPerView: "auto",
@@ -204,14 +204,14 @@ window.addEventListener("DOMContentLoaded", function () {
             disableOnInteraction: false,
         },
     });
-
+*/
     $(function(){
-        if($('body').is('.page-index')){
+        if($('body').is('.index-page')){
             localStorage.setItem("clickedMaterial", "false");
         }
     });
 
-    $('.gallery-banner').click(function(){
+    /*$('.gallery-banner').click(function(){
         localStorage.setItem("nameMaterial", $(this).attr('id'));
         localStorage.setItem("clickedMaterial", "true");
         window.location.href = "materiais.php";
@@ -223,22 +223,29 @@ window.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("clickedMaterial", "true");
         window.location.href = "materiais.php";
 
+    });*/
+    
+    $('.index-page .materiais .itens .item').click(function(){
+       var nameMaterial = $(this).children('a').attr('id');
+        localStorage.setItem("nameMaterial", nameMaterial);
+        localStorage.setItem("clickedMaterial", "true");
+        window.location.href = "materiais.php";
     });
-
+    
     $(function(){
-        if($('body').is('.page-materiais')){
+        if($('body').is('.material-page')){
             var nameMaterial = localStorage.getItem("nameMaterial");
             var clickedMaterial = localStorage.getItem("clickedMaterial");
             if(clickedMaterial == "true"){
                 jQuery(function(){
-                    jQuery('#' + nameMaterial).children("a").children("img").click();
+                    jQuery('#' + nameMaterial).click();
                     localStorage.setItem("clickedMaterial", "false");
                 });
             }
         }
     });
 
-    $('.page-empresa .empresa .images .pequena div').click(function(){
+    /*$('.page-empresa .empresa .images .pequena div').click(function(){
         var imageUrl = "Images/Empresa/Galeria/";   
         var imageGrandeId = $('.page-empresa .empresa .images .grande div').attr('id');
         var imageClicadaId = $(this).attr('id');
@@ -254,7 +261,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
         $(this).attr('id', imageGrandeId);
         $(this).children("img").attr('src', imageUrl + imageGrandeId + "false");
-    });
+    });*/
 
     $('.buttonEmail').click(function(){
         getFormInfos();

@@ -24,7 +24,7 @@
     <link rel="icon" href="Images/Site-Icon/site-icon.webp">
     <title>Prime</title>
 
-    <body>
+    <body class="index-page">
 
         <?php
          include 'php/navbar.html'
@@ -162,37 +162,37 @@
             </div>
             <div class="itens">
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="calacatta">
                         <img src="Images/Materiais/calacatta.png">
                         <p>calacatta</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="verde_ubatuba">
                         <img src="Images/Materiais/verde_ubatuba.png">
                         <p>VERDE UBATUBA</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="amarelo_maracuja">
                         <img src="Images/Materiais/amarelo_maracuja.png">
                         <p>AMARELO MARACUJÁ</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="arabesco">
                         <img src="Images/Materiais/arabesco.png">
                         <p>ARABESCO</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="bege_bahia">
                         <img src="Images/Materiais/bege_bahia.png">
                         <p>BEGE BAHIA</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a href="materiais.html">
+                    <a id="blue_fantasi">
                         <img src="Images/Materiais/blue_fantasi.png">
                         <p>BLUE FANTASY</p>
                     </a>
