@@ -26,36 +26,9 @@
 
     <body>
 
-        <header>
-            <nav>
-                <div class="mobile-logo">
-                        <a href="index.html"><img src="Images/Header/logo.png"><img src="Images/Header/nome.png"></a>    
-                    </div>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-list">
-                    <div class="social">
-                        <a href="https://www.facebook.com/" target="_blank"><img src="Images/Header/facebook.png"></a>    
-                        <a href="https://www.instagram.com/" target="_blank"><img src="Images/Header/instagram.png"></a>    
-                    </div>
-                    <li><a class="active" href="#">INÍCIO</a></li>
-                    <li><a href="index.html#industria">INDUSTRIA</a></li>
-                    <div class="logo">
-                        <a href="index.html"><img src="Images/Header/logo.png"></a>    
-                        <a href="index.html"><img src="Images/Header/nome.png"></a>    
-                    </div>
-                    <li><a href="materiais.html">MATERIAIS</a></li>
-                    <li><a href="index.html#contato">CONTATO</a></li>
-                    <div class="language">
-                        <a href="#"><img src="Images/Header/lg-pt.png"></a>    
-                        <a href="#"><img src="Images/Header/lg-en.png"></a> 
-                    </div>
-                </ul>
-            </nav>
-        </header>
+        <?php
+         include 'php/navbar.html'
+        ?>
 
         <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
@@ -375,34 +348,11 @@
             </div>
         </div>
 
-        <section class="contato" id="contato">
-            <div class="titulo" data-aos="fade-right">
-                <p>fale conosco</p>
-                <h2>contato</h2>
-            </div>
-            <div class="box">
-                <div class="form">
-                    <input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="NOME">
-                    <input class= "form-text form-email" type="text" name="email" id="email" placeholder="E-MAIL">
-                    <input class= "form-text" type="text" name="assunto" id="assunto" placeholder="ASSUNTO">
-                    <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
-                    <button class="buttonEmail" type="button">ENVIAR</button>
-                </div>
-                <div class="info">
-                    <img src="Images/Form/logo.png">
-                    <p>
-                        <strong>+55 27 3756 1951</strong>
-                    </p>
-                    <p>
-                        Rod. ES 320Km, Zona Rural - Barra de São Francisco - ES
-                    </p>
-                </div>
-            </div>
-        </section>
+        <?php
+            include 'php/footer.html'
+        ?>
 
-        <div class="maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.638880985781!2d-41.16443568507043!3d-20.846283986097486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb95da7b3f404a1%3A0xb41edfd26156a9a!2sMeani%20Marmores%20e%20Granitos!5e0!3m2!1spt-BR!2sbr!4v1651439557152!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        
 
     </body>
 
