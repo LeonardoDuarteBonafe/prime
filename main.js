@@ -3,6 +3,91 @@ window.addEventListener("DOMContentLoaded", function () {
     AOS.init();
     
     var isAnimationRunning = false;
+    
+    var language = {
+        eng: {
+            index: {
+                header: {
+                    inicio: "HOME",
+                    industria: "INDUSTRY",
+                    materiais: "MATERIALS",
+                    contato: "CONTACT"
+                },
+                carousel_top: {
+                    banner_1: "LUXURY AND MODERNITY",
+                    banner_2: "TIMELESS BEAUTY",
+                    banner_3: "QUALITY AND CLASS",
+                    banner_4: "FOR BOLD PROJECTS",
+                },
+                industria: {
+                    nossa: "OUR",
+                    industria: "INDUSTRY",
+                    text: "Prime Granitos e Mármores is a company that seeks to add quality, commitment and excellence to its materials and services in the marble and granite processing sector for the most diverse applications. Our mission is to be a reference in the stone market with committed professionals whose main objective is your satisfaction. We have a wide range of high quality products available to serve both domestic and foreign markets. Talk to one of our salespeople, get to know our materials and be surprised",
+                    
+                },
+                materiais: {
+                    titulo: "MATERIALS",    
+                },
+                equipe: {
+                    titulo_1: "KNOW OUR",
+                    titulo_2: "STAFF",
+                },
+                form: {
+                    titulo_1: "CONTACT",
+                    titulo_2: "US",
+                    nome: "NAME",
+                    assunto: "SUBJECT",
+                    mensagem: "MESSAGE",
+                },
+            },
+            produtos: {
+                //nome das galerias
+            },
+        },
+    };
+
+    var pageLanguage = localStorage.getItem("language");
+    
+    if(pageLanguage == "en"){
+        //header
+        $('.nav-list').children("li").eq(0).children("a").text(language.eng.index.header.inicio);
+        $('.nav-list').children("li").eq(1).children("a").text(language.eng.index.header.industria);
+        $('.nav-list').children("li").eq(2).children("a").text(language.eng.index.header.materiais);
+        $('.nav-list').children("li").eq(3).children("a").text(language.eng.index.header.contato);
+        
+        //carousel-top
+        $('.top-carousel .carousel-inner').children("div").eq(0).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_1);
+        $('.top-carousel .carousel-inner').children("div").eq(1).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_2);
+        $('.top-carousel .carousel-inner').children("div").eq(2).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_3);
+        $('.top-carousel .carousel-inner').children("div").eq(3).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_4);
+        
+        //industria
+        $('.industria .info h2').text(language.eng.index.industria.nossa);
+        $('.industria .info h1').text(language.eng.index.industria.industria);
+        $('.industria .info p').text(language.eng.index.industria.text);
+        
+        //materiais
+        $('.materiais .titulo h2').text(language.eng.index.materiais.titulo);
+        
+        //equipe
+        $('.equipe .titulo h2').text(language.eng.index.equipe.titulo_1);
+        $('.equipe .titulo h1').text(language.eng.index.equipe.titulo_2);
+        
+        //contato
+        $('.contato .titulo p').text(language.eng.index.form.titulo_1);
+        $('.contato .titulo h2').text(language.eng.index.form.titulo_2);
+        $('.contato .form').children('input').eq(0).attr("placeholder",language.eng.index.form.nome);
+        $('.contato .form').children('input').eq(2).attr("placeholder",language.eng.index.form.assunto);
+        $('.contato .form').children('textarea').attr("placeholder",language.eng.index.form.mensagem);
+
+    }
+
+    $('.language a').click(function(){
+        localStorage.setItem("language", $(this).attr('id'));
+        setTimeout(function () {
+            location.reload(true);
+        }, 150)
+    });
 
     var swiper = new Swiper(".swiperEquipe", {
         slidesPerGroup: 1,

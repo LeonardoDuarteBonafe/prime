@@ -27,10 +27,10 @@
     <body class="index-page">
 
         <?php
-         include 'php/navbar.html'
+        include 'php/navbar.html'
         ?>
 
-        <div id="top-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
+        <div id="top-carousel" class="carousel vert slide top-carousel" data-ride="carousel" data-interval="5000" data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#top-carousel" data-slide-to="0" id="0" class="active"></li>
                 <li data-target="#top-carousel" data-slide-to="1"></li>
@@ -52,7 +52,7 @@
                     </section>
                     <section class="small">
                         <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco1.png"><!--
-                        <p>slab 1</p>-->
+<p>slab 1</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
@@ -69,7 +69,7 @@
                     </section>
                     <section class="small">
                         <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco2.png"><!--
-                        <p>slab 2</p>-->
+<p>slab 2</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
@@ -86,7 +86,7 @@
                     </section>
                     <section class="small">
                         <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco3.png"><!--
-                        <p>slab 3</p>-->
+<p>slab 3</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
@@ -103,7 +103,7 @@
                     </section>
                     <section class="small">
                         <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco4.png"><!--
-                        <p>slab 3</p>-->
+<p>slab 3</p>-->
                     </section>
                 </div>
                 <!--<div class="carousel-item">
@@ -117,7 +117,7 @@
         <section class="industria" id="industria">
             <img class="fundo" src="Images/Industria/fundo.png">
             <div class="info" data-aos="fade-right"
-     data-aos-anchor-placement="center-bottom">
+                 data-aos-anchor-placement="center-bottom">
                 <h2>nossa</h2>
                 <h1>industria</h1>
                 <p>
@@ -134,11 +134,11 @@
             </div>
             <div class="images">
                 <div class="big" data-aos="fade-left"
-     data-aos-anchor-placement="center-bottom">
+                     data-aos-anchor-placement="center-bottom">
                     <img src="Images/Industria/banner1.png" id="1">
                 </div>
                 <div class="small" data-aos="fade-left"
-     data-aos-anchor-placement="center-bottom">
+                     data-aos-anchor-placement="center-bottom">
                     <div>
                         <img src="Images/Industria/banner2.png" id="2">
                     </div>
@@ -231,24 +231,24 @@
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Alencar Ribeiro</h3><!--
-                            <img src="Images/Equipe/imagem1.png">-->
+<img src="Images/Equipe/imagem1.png">-->
                             <p>+55 (27) 99977-1987</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Ramon Velmer</h3><!--
-                            <img src="Images/Equipe/imagem1.png">-->
+<img src="Images/Equipe/imagem1.png">-->
                             <p>+55 (27) 99866-3745</p>
                         </div>
                     </div>
                     <!--<div class="swiper-slide">
-                        <div class="box">
-                            <h3>MARCOS</h3>
-                            <img src="Images/Equipe/imagem1.png">
-                            <p>vendedor</p>
-                        </div>
-                    </div>-->
+<div class="box">
+<h3>MARCOS</h3>
+<img src="Images/Equipe/imagem1.png">
+<p>vendedor</p>
+</div>
+</div>-->
                 </div>
             </div>
         </section> 
@@ -341,10 +341,10 @@
 <div class="nome">
 <p>P E D R E I R A 3</p>
 </div>
-                    <img class="texto" src="Images/Pedreira/imagem1.png">
-                    <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.png">
-                    <img class="image" src="Images/Pedreira/imagem.png">
-                </div>-->
+<img class="texto" src="Images/Pedreira/imagem1.png">
+<img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.png">
+<img class="image" src="Images/Pedreira/imagem.png">
+</div>-->
             </div>
         </div>
 
@@ -352,7 +352,7 @@
             include 'php/footer.html'
         ?>
 
-        
+
 
     </body>
 
