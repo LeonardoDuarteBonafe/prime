@@ -106,11 +106,6 @@
 <p>slab 3</p>-->
                     </section>
                 </div>
-                <!--<div class="carousel-item">
-<section>
-</section>
-<img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner1.webp">
-</div>-->
             </div>
         </div>
 
@@ -230,95 +225,22 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
-                            <h3>Alencar Ribeiro</h3><!--
-<img src="Images/Equipe/imagem1.webp">-->
+                            <h3>Alencar Ribeiro</h3>
                             <p>+55 (27) 99977-1987</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
-                            <h3>Ramon Velmer</h3><!--
-<img src="Images/Equipe/imagem1.webp">-->
+                            <h3>Ramon Velmer</h3>
                             <p>+55 (27) 99866-3745</p>
                         </div>
                     </div>
-                    <!--<div class="swiper-slide">
-<div class="box">
-<h3>MARCOS</h3>
-<img src="Images/Equipe/imagem1.webp">
-<p>vendedor</p>
-</div>
-</div>-->
                 </div>
             </div>
         </section> 
 
-        <!--<div class="materiais" id="materiais">
-<img src="Images/Equipe/fundo.webp" class="background">
-<div class="info">
-<h1>NOSSOS MATERIAIS</h1>
-<p>VÁRIAS SUPERFÍCIES, INÚMERAS POSSIBILIDADES</p>
-</div>
-<div class="swiper-container gallery-swiper">
-<div class="swiper-wrapper">
-<div class="swiper-slide gallery-banner" id="1">
-<img src="Images/Equipe/imagem1.webp" id="01">
-<p>Branco Cintilante</p>
-</div>
-<div class="swiper-slide gallery-banner" id="2">
-<img src="Images/Equipe/imagem1.webp" id="02">
-<p>Branco Dallas</p>
-</div>
-<div class="swiper-slide gallery-banner" id="3">
-<img src="Images/Equipe/imagem1.webp" id="03">
-<p>Branco Valentino</p>
-</div>
-<div class="swiper-slide gallery-banner" id="4">
-<img src="Images/Equipe/imagem1.webp" id="04">
-<p>Calacatta</p>
-</div>
-<div class="swiper-slide gallery-banner" id="5">
-<img src="Images/Equipe/imagem1.webp" id="05">
-<p>Cristallo</p>
-</div>
-<div class="swiper-slide gallery-banner" id="6">
-<img src="Images/Equipe/imagem1.webp" id="06">
-<p>Cristallo Light</p>
-</div>
-<div class="swiper-slide gallery-banner" id="7">
-<img src="Images/Equipe/imagem1.webp" id="07">
-<p>Granito Verde Ubatuda</p>
-</div>
-<div class="swiper-slide gallery-banner" id="8">
-<img src="Images/Equipe/imagem1.webp" id="08">
-<p>Mármore Arabescato</p>
-</div>
-<div class="swiper-slide gallery-banner" id="9">
-<img src="Images/Equipe/imagem1.webp" id="09">
-<p>Matarazzo</p>
-</div>
-<div class="swiper-slide gallery-banner" id="10">
-<img src="Images/Equipe/imagem1.webp" id="10">
-<p>Sao Gabriel</p>
-</div>
-<div class="swiper-slide gallery-banner" id="11">
-<img src="Images/Equipe/imagem1.webp" id="11">
-<p>Sunset</p>
-</div>
-</div>
-
-<div class="swiper-pagination"></div>
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-
-</div>
-</div>-->
-
         <div id="quarry-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
-            <ol class="carousel-indicators"><!--
-<li data-target="#quarry-carousel" data-slide-to="0" id="0" class="active"></li>
-<li data-target="#quarry-carousel" data-slide-to="1"></li>
-<li data-target="#quarry-carousel" data-slide-to="2"></li>-->
+            <ol class="carousel-indicators">
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active"><!--
@@ -329,30 +251,17 @@
                     <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.webp">
                     <img class="image" src="Images/Pedreira/imagem.webp">
                 </div>
-                <div class="carousel-item"><!--
-<div class="nome">
-<p>P E D R E I R A 2</p>
-</div>-->
+                <div class="carousel-item">
                     <img class="texto" src="Images/Pedreira/imagem1.webp">
                     <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner2.webp">
                     <img class="image" src="Images/Pedreira/imagem.webp">
                 </div>
-                <!--<div class="carousel-item">
-<div class="nome">
-<p>P E D R E I R A 3</p>
-</div>
-<img class="texto" src="Images/Pedreira/imagem1.webp">
-<img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.webp">
-<img class="image" src="Images/Pedreira/imagem.webp">
-</div>-->
             </div>
         </div>
 
         <?php
             include 'php/footer.html'
         ?>
-
-
 
     </body>
 
