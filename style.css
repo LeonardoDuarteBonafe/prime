@@ -249,7 +249,7 @@ header nav .mobile-menu div{
     opacity: 0.4;
     cursor: pointer;
     overflow: hidden;
-    background-image: url('Images/Carousel-Top/botao.png') !important;
+    background-image: url('Images/Carousel-Top/botao.webp') !important;
     background-color: transparent!important;
     background-size: contain;
     background-position: center;
@@ -855,7 +855,7 @@ width: 100% !important;
 
 .contato{
     /background-color: aquamarine;
-    background-image: url(Images/Form/fundo.png);
+    background-image: url(Images/Form/fundo.webp);
     background-size: contain;
     width: 100%;
     padding: 50px 0 30px 0;
@@ -1127,7 +1127,7 @@ width: 100% !important;
         opacity: 0.4;
         cursor: pointer;
         overflow: hidden;
-        background-image: url('Images/Carousel-Top/botao.png') !important;
+        background-image: url('Images/Carousel-Top/botao.webp') !important;
         background-color: transparent!important;
         background-size: contain;
         background-position: center;
@@ -1509,7 +1509,7 @@ width: 100% !important;
     .contato{
         padding: 20px 0;/*
         /background-color: aquamarine;
-        background-image: url(Images/Form/fundo.png);
+        background-image: url(Images/Form/fundo.webp);
         object-position: center;
         object-fit: cover;
         width: 100%;
@@ -1625,7 +1625,7 @@ width: 100% !important;
         opacity: 0.4;
         cursor: pointer;
         overflow: hidden;
-        background-image: url('Images/Carousel-Top/botao.png') !important;
+        background-image: url('Images/Carousel-Top/botao.webp') !important;
         background-color: transparent!important;
         background-size: contain;
         background-position: center;
@@ -2046,7 +2046,7 @@ width: 100% !important;
     .contato{
         padding: 20px 0;/*
         /background-color: aquamarine;
-        background-image: url(Images/Form/fundo.png);
+        background-image: url(Images/Form/fundo.webp);
         object-position: center;
         object-fit: cover;
         width: 100%;
@@ -2311,7 +2311,7 @@ width: 100% !important;
     opacity: 0.4;
     cursor: pointer;
     overflow: hidden;
-    background-image: url('Images/Carousel-Top/botao.png') !important;
+    background-image: url('Images/Carousel-Top/botao.webp') !important;
     background-color: transparent!important;
     background-size: contain;
     background-position: center;
@@ -2917,7 +2917,7 @@ width: 100% !important;
 
     /*.contato{
     /background-color: aquamarine;
-    background-image: url(Images/Form/fundo.png);
+    background-image: url(Images/Form/fundo.webp);
     object-position: center;
     object-fit: cover;
     width: 100%;

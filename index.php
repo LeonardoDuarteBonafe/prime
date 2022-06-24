@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 
-    <link rel="icon" href="Images/Site-Icon/site-icon.webp">
+    <link rel="icon" href="Images/icon.webp">
     <title>Prime</title>
 
     <body class="index-page">
@@ -41,9 +41,9 @@
                 <div class="carousel-item active">
                     <section class="big">
                         <!--<p class="title">environment 1</p>-->
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner1.png">
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner1.webp">
                         <div class="image">
-                            <img src="Images/Carousel-Top/bloquinho1.png">
+                            <img src="Images/Carousel-Top/bloquinho1.webp">
                         </div>
                         <div class="info">
                             <h2>cala <br> catta</h2>
@@ -51,16 +51,16 @@
                         </div>
                     </section>
                     <section class="small">
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco1.png"><!--
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco1.webp"><!--
 <p>slab 1</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
                     <section class="big">
                         <!--<p class="title">environment 2</p>-->
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner2.png">
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner2.webp">
                         <div class="image">
-                            <img src="Images/Carousel-Top/bloquinho2.png">
+                            <img src="Images/Carousel-Top/bloquinho2.webp">
                         </div>
                         <div class="info">
                             <h2>taj <br> mahal</h2>
@@ -68,16 +68,16 @@
                         </div>
                     </section>
                     <section class="small">
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco2.png"><!--
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco2.webp"><!--
 <p>slab 2</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
                     <section class="big">
                         <!--<p class="title">environment 3</p>-->
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner3.png">
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner3.webp">
                         <div class="image">
-                            <img src="Images/Carousel-Top/bloquinho3.png">
+                            <img src="Images/Carousel-Top/bloquinho3.webp">
                         </div>
                         <div class="info">
                             <h2>blue <br> nile</h2>
@@ -85,16 +85,16 @@
                         </div>
                     </section>
                     <section class="small">
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco3.png"><!--
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco3.webp"><!--
 <p>slab 3</p>-->
                     </section>
                 </div>
                 <div class="carousel-item">
                     <section class="big">
                         <!--<p class="title">environment 3</p>-->
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner4.png">
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner4.webp">
                         <div class="image">
-                            <img src="Images/Carousel-Top/bloquinho4.png">
+                            <img src="Images/Carousel-Top/bloquinho4.webp">
                         </div>
                         <div class="info">
                             <h2>antartic <br> white</h2>
@@ -102,20 +102,20 @@
                         </div>
                     </section>
                     <section class="small">
-                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco4.png"><!--
+                        <img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/bloco4.webp"><!--
 <p>slab 3</p>-->
                     </section>
                 </div>
                 <!--<div class="carousel-item">
 <section>
 </section>
-<img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner1.png">
+<img class="d-block mx-auto img-fluid" src="Images/Carousel-Top/banner1.webp">
 </div>-->
             </div>
         </div>
 
         <section class="industria" id="industria">
-            <img class="fundo" src="Images/Industria/fundo.png">
+            <img class="fundo" src="Images/Industria/fundo.webp">
             <div class="info" data-aos="fade-right"
                  data-aos-anchor-placement="center-bottom">
                 <h2>nossa</h2>
@@ -135,21 +135,21 @@
             <div class="images">
                 <div class="big" data-aos="fade-left"
                      data-aos-anchor-placement="center-bottom">
-                    <img src="Images/Industria/banner1.png" id="1">
+                    <img src="Images/Industria/banner1.webp" id="1">
                 </div>
                 <div class="small" data-aos="fade-left"
                      data-aos-anchor-placement="center-bottom">
                     <div>
-                        <img src="Images/Industria/banner2.png" id="2">
+                        <img src="Images/Industria/banner2.webp" id="2">
                     </div>
                     <div>
-                        <img src="Images/Industria/banner3.png" id="3">
+                        <img src="Images/Industria/banner3.webp" id="3">
                     </div>
                     <div>
-                        <img src="Images/Industria/banner4.png" id="4">
+                        <img src="Images/Industria/banner4.webp" id="4">
                     </div>
                     <div>
-                        <img src="Images/Industria/banner5.png" id="5">
+                        <img src="Images/Industria/banner5.webp" id="5">
                     </div>
                 </div>
             </div>
@@ -163,37 +163,37 @@
             <div class="itens">
                 <div class="item">
                     <a id="calacatta">
-                        <img src="Images/Materiais/calacatta.png">
+                        <img src="Images/Materiais/calacatta.webp">
                         <p>calacatta</p>
                     </a>
                 </div>
                 <div class="item">
                     <a id="verde_ubatuba">
-                        <img src="Images/Materiais/verde_ubatuba.png">
+                        <img src="Images/Materiais/verde_ubatuba.webp">
                         <p>VERDE UBATUBA</p>
                     </a>
                 </div>
                 <div class="item">
                     <a id="amarelo_maracuja">
-                        <img src="Images/Materiais/amarelo_maracuja.png">
+                        <img src="Images/Materiais/amarelo_maracuja.webp">
                         <p>AMARELO MARACUJÁ</p>
                     </a>
                 </div>
                 <div class="item">
                     <a id="arabesco">
-                        <img src="Images/Materiais/arabesco.png">
+                        <img src="Images/Materiais/arabesco.webp">
                         <p>ARABESCO</p>
                     </a>
                 </div>
                 <div class="item">
                     <a id="bege_bahia">
-                        <img src="Images/Materiais/bege_bahia.png">
+                        <img src="Images/Materiais/bege_bahia.webp">
                         <p>BEGE BAHIA</p>
                     </a>
                 </div>
                 <div class="item">
                     <a id="blue_fantasi">
-                        <img src="Images/Materiais/blue_fantasi.png">
+                        <img src="Images/Materiais/blue_fantasi.webp">
                         <p>BLUE FANTASY</p>
                     </a>
                 </div>
@@ -210,42 +210,42 @@
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Pablo Lemos</h3>
-                            <img src="Images/Equipe/pablo.png">
+                            <img src="Images/Equipe/pablo.webp">
                             <p>+55 (27) 99731-5324</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>VInicius Sobral</h3>
-                            <img src="Images/Equipe/vinicius.png">
+                            <img src="Images/Equipe/vinicius.webp">
                             <p>+55 (27) 98835-4606</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Sebastião Félix</h3>
-                            <img src="Images/Equipe/sebastiao.png">
+                            <img src="Images/Equipe/sebastiao.webp">
                             <p>+55 (27) 99296-7507</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Alencar Ribeiro</h3><!--
-<img src="Images/Equipe/imagem1.png">-->
+<img src="Images/Equipe/imagem1.webp">-->
                             <p>+55 (27) 99977-1987</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Ramon Velmer</h3><!--
-<img src="Images/Equipe/imagem1.png">-->
+<img src="Images/Equipe/imagem1.webp">-->
                             <p>+55 (27) 99866-3745</p>
                         </div>
                     </div>
                     <!--<div class="swiper-slide">
 <div class="box">
 <h3>MARCOS</h3>
-<img src="Images/Equipe/imagem1.png">
+<img src="Images/Equipe/imagem1.webp">
 <p>vendedor</p>
 </div>
 </div>-->
@@ -254,7 +254,7 @@
         </section> 
 
         <!--<div class="materiais" id="materiais">
-<img src="Images/Equipe/fundo.png" class="background">
+<img src="Images/Equipe/fundo.webp" class="background">
 <div class="info">
 <h1>NOSSOS MATERIAIS</h1>
 <p>VÁRIAS SUPERFÍCIES, INÚMERAS POSSIBILIDADES</p>
@@ -262,47 +262,47 @@
 <div class="swiper-container gallery-swiper">
 <div class="swiper-wrapper">
 <div class="swiper-slide gallery-banner" id="1">
-<img src="Images/Equipe/imagem1.png" id="01">
+<img src="Images/Equipe/imagem1.webp" id="01">
 <p>Branco Cintilante</p>
 </div>
 <div class="swiper-slide gallery-banner" id="2">
-<img src="Images/Equipe/imagem1.png" id="02">
+<img src="Images/Equipe/imagem1.webp" id="02">
 <p>Branco Dallas</p>
 </div>
 <div class="swiper-slide gallery-banner" id="3">
-<img src="Images/Equipe/imagem1.png" id="03">
+<img src="Images/Equipe/imagem1.webp" id="03">
 <p>Branco Valentino</p>
 </div>
 <div class="swiper-slide gallery-banner" id="4">
-<img src="Images/Equipe/imagem1.png" id="04">
+<img src="Images/Equipe/imagem1.webp" id="04">
 <p>Calacatta</p>
 </div>
 <div class="swiper-slide gallery-banner" id="5">
-<img src="Images/Equipe/imagem1.png" id="05">
+<img src="Images/Equipe/imagem1.webp" id="05">
 <p>Cristallo</p>
 </div>
 <div class="swiper-slide gallery-banner" id="6">
-<img src="Images/Equipe/imagem1.png" id="06">
+<img src="Images/Equipe/imagem1.webp" id="06">
 <p>Cristallo Light</p>
 </div>
 <div class="swiper-slide gallery-banner" id="7">
-<img src="Images/Equipe/imagem1.png" id="07">
+<img src="Images/Equipe/imagem1.webp" id="07">
 <p>Granito Verde Ubatuda</p>
 </div>
 <div class="swiper-slide gallery-banner" id="8">
-<img src="Images/Equipe/imagem1.png" id="08">
+<img src="Images/Equipe/imagem1.webp" id="08">
 <p>Mármore Arabescato</p>
 </div>
 <div class="swiper-slide gallery-banner" id="9">
-<img src="Images/Equipe/imagem1.png" id="09">
+<img src="Images/Equipe/imagem1.webp" id="09">
 <p>Matarazzo</p>
 </div>
 <div class="swiper-slide gallery-banner" id="10">
-<img src="Images/Equipe/imagem1.png" id="10">
+<img src="Images/Equipe/imagem1.webp" id="10">
 <p>Sao Gabriel</p>
 </div>
 <div class="swiper-slide gallery-banner" id="11">
-<img src="Images/Equipe/imagem1.png" id="11">
+<img src="Images/Equipe/imagem1.webp" id="11">
 <p>Sunset</p>
 </div>
 </div>
@@ -325,25 +325,25 @@
 <div class="nome">
 <p>P E D R E I R A 1</p>
 </div>-->
-                    <img class="texto" src="Images/Pedreira/imagem1.png">
-                    <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.png">
-                    <img class="image" src="Images/Pedreira/imagem.png">
+                    <img class="texto" src="Images/Pedreira/imagem1.webp">
+                    <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.webp">
+                    <img class="image" src="Images/Pedreira/imagem.webp">
                 </div>
                 <div class="carousel-item"><!--
 <div class="nome">
 <p>P E D R E I R A 2</p>
 </div>-->
-                    <img class="texto" src="Images/Pedreira/imagem1.png">
-                    <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner2.png">
-                    <img class="image" src="Images/Pedreira/imagem.png">
+                    <img class="texto" src="Images/Pedreira/imagem1.webp">
+                    <img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner2.webp">
+                    <img class="image" src="Images/Pedreira/imagem.webp">
                 </div>
                 <!--<div class="carousel-item">
 <div class="nome">
 <p>P E D R E I R A 3</p>
 </div>
-<img class="texto" src="Images/Pedreira/imagem1.png">
-<img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.png">
-<img class="image" src="Images/Pedreira/imagem.png">
+<img class="texto" src="Images/Pedreira/imagem1.webp">
+<img class="d-block mx-auto img-fluid" src="Images/Pedreira/banner1.webp">
+<img class="image" src="Images/Pedreira/imagem.webp">
 </div>-->
             </div>
         </div>

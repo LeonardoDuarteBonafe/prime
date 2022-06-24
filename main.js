@@ -211,7 +211,7 @@ window.addEventListener("DOMContentLoaded", function () {
             var imagemUrl = "Images/Industria/banner";
             console.log("clicou" + imagemPequenaId);
 
-            $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".png");
+            $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".webp");
 
             isAnimationRunning = true;    
 
@@ -227,7 +227,7 @@ window.addEventListener("DOMContentLoaded", function () {
             $('.industria .images .big img').attr('id', imagemPequenaId);
 
             $(this).attr('id', imagemGrandeId);
-            $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
+            $(this).attr('src',  imagemUrl + imagemGrandeId + ".webp");
         }
     });
 
