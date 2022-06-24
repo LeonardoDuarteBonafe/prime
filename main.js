@@ -383,7 +383,7 @@ window.addEventListener("DOMContentLoaded", function () {
             //Password: "jzkocqnlqfdoeuhr",
             Password: "5347107AAECD2542DC5E4B11C6B587993564",*/
             SecureToken : "27567a17-50bc-410f-ae13-37eb1f3747d6",
-            To: `leo_nardo136@hotmail.com`,
+            To: `sales@primegranitosemarmores.com`,
             From: 'disparador.mensagem@gmail.com',
             Subject: `${name} tem interesse no seu produto!`,
             Body: `${message}`
