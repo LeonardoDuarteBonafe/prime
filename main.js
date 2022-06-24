@@ -1,9 +1,9 @@
 window.addEventListener("DOMContentLoaded", function () {
 
     AOS.init();
-    
+
     var isAnimationRunning = false;
-    
+
     var language = {
         eng: {
             index: {
@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", function () {
                     nossa: "OUR",
                     industria: "INDUSTRY",
                     text: "Prime Granitos e Mármores is a company that seeks to add quality, commitment and excellence to its materials and services in the marble and granite processing sector for the most diverse applications. Our mission is to be a reference in the stone market with committed professionals whose main objective is your satisfaction. We have a wide range of high quality products available to serve both domestic and foreign markets. Talk to one of our salespeople, get to know our materials and be surprised",
-                    
+
                 },
                 materiais: {
                     titulo: "MATERIALS",    
@@ -38,6 +38,7 @@ window.addEventListener("DOMContentLoaded", function () {
                     nome: "NAME",
                     assunto: "SUBJECT",
                     mensagem: "MESSAGE",
+                    botao: "SENT",
                 },
             },
             produtos: {
@@ -47,38 +48,40 @@ window.addEventListener("DOMContentLoaded", function () {
     };
 
     var pageLanguage = localStorage.getItem("language");
-    
+
     if(pageLanguage == "en"){
         //header
         $('.nav-list').children("li").eq(0).children("a").text(language.eng.index.header.inicio);
         $('.nav-list').children("li").eq(1).children("a").text(language.eng.index.header.industria);
         $('.nav-list').children("li").eq(2).children("a").text(language.eng.index.header.materiais);
         $('.nav-list').children("li").eq(3).children("a").text(language.eng.index.header.contato);
-        
+
         //carousel-top
         $('.top-carousel .carousel-inner').children("div").eq(0).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_1);
         $('.top-carousel .carousel-inner').children("div").eq(1).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_2);
         $('.top-carousel .carousel-inner').children("div").eq(2).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_3);
         $('.top-carousel .carousel-inner').children("div").eq(3).children('section').children('div').eq(1).children('p').text(language.eng.index.carousel_top.banner_4);
-        
+
         //industria
         $('.industria .info h2').text(language.eng.index.industria.nossa);
         $('.industria .info h1').text(language.eng.index.industria.industria);
         $('.industria .info p').text(language.eng.index.industria.text);
-        
+
         //materiais
         $('.materiais .titulo h2').text(language.eng.index.materiais.titulo);
-        
+
         //equipe
         $('.equipe .titulo h2').text(language.eng.index.equipe.titulo_1);
         $('.equipe .titulo h1').text(language.eng.index.equipe.titulo_2);
-        
+
         //contato
         $('.contato .titulo p').text(language.eng.index.form.titulo_1);
         $('.contato .titulo h2').text(language.eng.index.form.titulo_2);
         $('.contato .form').children('input').eq(0).attr("placeholder",language.eng.index.form.nome);
         $('.contato .form').children('input').eq(2).attr("placeholder",language.eng.index.form.assunto);
         $('.contato .form').children('textarea').attr("placeholder",language.eng.index.form.mensagem);
+        $('.contato .form .buttonEmail').text(language.eng.index.form.botao);
+
 
     }
 
@@ -203,28 +206,28 @@ window.addEventListener("DOMContentLoaded", function () {
 */
     $('.industria .images .small div img').click(function(){
         if(!isAnimationRunning){
-        var imagemPequenaId = $(this).attr('id');
-        var imagemGrandeId = $('.industria .images .big img').attr('id');
-        var imagemUrl = "Images/Industria/banner";
-        console.log("clicou" + imagemPequenaId);
+            var imagemPequenaId = $(this).attr('id');
+            var imagemGrandeId = $('.industria .images .big img').attr('id');
+            var imagemUrl = "Images/Industria/banner";
+            console.log("clicou" + imagemPequenaId);
 
-        $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".png");
-        
-        isAnimationRunning = true;    
-            
-        $('.industria .images .big').addClass('industria-active');
-        var smallImage = $(this).parent();
-        smallImage.addClass('industria-small-active');
-        $('.industria .images .big').on("animationend", function(){
-            $(this).removeClass('industria-active');
-            smallImage.removeClass('industria-small-active');
-            isAnimationRunning = false;
-        });
+            $('.industria .images .big img').attr('src', imagemUrl + imagemPequenaId + ".png");
 
-        $('.industria .images .big img').attr('id', imagemPequenaId);
-        
-        $(this).attr('id', imagemGrandeId);
-        $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
+            isAnimationRunning = true;    
+
+            $('.industria .images .big').addClass('industria-active');
+            var smallImage = $(this).parent();
+            smallImage.addClass('industria-small-active');
+            $('.industria .images .big').on("animationend", function(){
+                $(this).removeClass('industria-active');
+                smallImage.removeClass('industria-small-active');
+                isAnimationRunning = false;
+            });
+
+            $('.industria .images .big img').attr('id', imagemPequenaId);
+
+            $(this).attr('id', imagemGrandeId);
+            $(this).attr('src',  imagemUrl + imagemGrandeId + ".png");
         }
     });
 
@@ -309,14 +312,14 @@ window.addEventListener("DOMContentLoaded", function () {
         window.location.href = "materiais.php";
 
     });*/
-    
+
     $('.index-page .materiais .itens .item').click(function(){
-       var nameMaterial = $(this).children('a').attr('id');
+        var nameMaterial = $(this).children('a').attr('id');
         localStorage.setItem("nameMaterial", nameMaterial);
         localStorage.setItem("clickedMaterial", "true");
         window.location.href = "materiais.php";
     });
-    
+
     $(function(){
         if($('body').is('.material-page')){
             var nameMaterial = localStorage.getItem("nameMaterial");
@@ -356,38 +359,42 @@ window.addEventListener("DOMContentLoaded", function () {
         var emailMessage = "";
         var nome = document.querySelector('#nome').value;
         var email = document.querySelector('#email').value;
-        var telefone = document.querySelector('#telefone').value;
-        var produto = document.querySelector('#produto').value;
+        var telefone = document.querySelector('#assunto').value;
+        var produto = document.querySelector('#mensagem').value;
 
-        emailMessage += "Name: " + nome + ". <br>";
+        emailMessage += "Nome: " + nome + ". <br>";
         emailMessage += "Email: " + email + ". <br>";
-        emailMessage += "Phone: " + telefone + ". <br>";
-        emailMessage += "Product: " + produto + ". <br>";
+        emailMessage += "Assunto: " + telefone + ". <br>";
+        emailMessage += "Telefone: " + produto + ". <br>";
         if(nome === "" || email === ""){
             document.getElementsByName('nome')[0].placeholder='Please insert your NAME!';
             document.getElementsByName('email')[0].placeholder='Please insert your EMAIL!';
         }
         else{
-            console.log("chegou aqui");
             sendEmail(nome, email, emailMessage);
         }
     }
 
     function sendEmail(name, email, message){
         Email.send({
-            Host: "smtp.gmail.com",
+            /*Host: "smtp.elasticemail.com",
             //Username: 'ldbmaildealer@gmail.com',
-            Username: 'leonardodbonafe@gmail.com',
+            Username: 'disparador.mensagem@gmail.com',
             //Password: "jzkocqnlqfdoeuhr",
-            Password: "ppbnvpviefcyquhu",
+            Password: "5347107AAECD2542DC5E4B11C6B587993564",*/
+            SecureToken : "27567a17-50bc-410f-ae13-37eb1f3747d6",
             To: `leo_nardo136@hotmail.com`,
-            From: 'ldbmaildealer@gmail.com',
-            Subject: `${name} has interest in your product!`,
-            Body: `${message}`,
+            From: 'disparador.mensagem@gmail.com',
+            Subject: `${name} tem interesse no seu produto!`,
+            Body: `${message}`
         }).then(function(message){
             alert("Your email was sent successfully");
             window.location.reload(false); 
-        }); 
+        });
+        /*.then(function(message){
+            alert("Your email was sent successfully");
+            window.location.reload(false); 
+        }); */
     }
 
 });
