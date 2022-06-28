@@ -89,36 +89,64 @@ window.addEventListener("DOMContentLoaded", function () {
         }, 150)
     });
 
-    var swiper = new Swiper(".swiperEquipe", {
+    var swiper = new Swiper(".swiperEquipe.swiper1", {
         slidesPerGroup: 1,
-        loop: true,
-        centeredSlides: true,
+        loop: false,/*
+        centeredSlides: true,*/
         autoplay: {
-            delay: 2000,
+            delay: 3432,
             disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
         },
         breakpoints: {
             300: {
+                loop: true,
                 slidesPerView: 1,
                 spaceBetween: 20,
             },  
             576: {
+                loop: true,
                 slidesPerView: 2,
                 spaceBetween: 20,
             },
             769: {
+                loop: false,
                 slidesPerView: 3,
                 spaceBetween: 20,
             },
             992: {
+                loop: false,
+                slidesPerView: 5,
+                spaceBetween: 20,
+            },
+        },
+    });
+    
+    var swiper = new Swiper(".swiperEquipe.swiper2", {
+        slidesPerGroup: 1,
+        loop: false,/*
+        centeredSlides: true,*/
+        autoplay: {
+            delay: 2197,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            300: {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },  
+            576: {
+                loop: false,
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            769: {
+                loop: false,
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            992: {
+                loop: false,
                 slidesPerView: 5,
                 spaceBetween: 20,
             },

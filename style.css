@@ -681,8 +681,8 @@ header nav .mobile-menu div{
     font-size: 4.5rem;
 }
 
-.equipe .swiperEquipe{
-
+.equipe .swiperEquipe .swiper-wrapper{
+    display: flex  !important;
 }
 
 .equipe .swiperEquipe .swiper-slide{
@@ -1194,10 +1194,6 @@ header nav .mobile-menu div{
         font-size: 3.5rem;
     }
 
-    .equipe .swiperEquipe{
-
-    }
-
     .equipe .swiperEquipe .swiper-slide .box{
         max-width: 300px;
         overflow: hidden;
@@ -1528,5 +1524,19 @@ header nav .mobile-menu div{
 
     .equipe .swiperEquipe .swiper-slide .box img{
         height: 160px;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .equipe .swiperEquipe.swiper2 .swiper-wrapper{
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 993px){
+    .equipe .swiperEquipe.swiper1 .swiper-wrapper{
+        display: flex !important;
+        justify-content: center;
     }
 }

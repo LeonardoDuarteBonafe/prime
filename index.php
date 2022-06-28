@@ -200,7 +200,7 @@
                 <h2>conheça nossa</h2>
                 <h1>equipe</h1>
             </div>
-            <div class="swiper mySwiper swiperEquipe" data-aos="fade-left">
+            <div class="swiper mySwiper swiperEquipe swiper1" data-aos="fade-left">
                 <div class="swiper-wrapper imagens">
                     <div class="swiper-slide">
                         <div class="box">
@@ -222,7 +222,24 @@
                             <img src="Images/Equipe/sebastiao.webp">
                             <p>+55 (27) 99296-7507</p>
                         </div>
+                    </div><!--
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <h3>Alencar Ribeiro</h3>
+                            <p>+55 (27) 99977-1987</p>
+                        </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <h3>Ramon Velmer</h3>
+                            <p>+55 (27) 99866-3745</p>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            
+            <div class="swiper mySwiper swiperEquipe swiper2" data-aos="fade-left">
+                <div class="swiper-wrapper imagens">
                     <div class="swiper-slide">
                         <div class="box">
                             <h3>Alencar Ribeiro</h3>
