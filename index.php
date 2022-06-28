@@ -237,6 +237,7 @@
                     </div>
                 </div>
             </div>
+            
         </section> 
 
         <div id="quarry-carousel" class="carousel vert slide" data-ride="carousel" data-interval="5000" data-pause="false">
