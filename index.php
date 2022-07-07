@@ -157,39 +157,39 @@
             </div>
             <div class="itens">
                 <div class="item">
-                    <a id="calacatta">
-                        <img src="Images/Materiais/calacatta.webp">
-                        <p>calacatta</p>
+                    <a id="blue_nile">
+                        <img src="Images/Materiais/blue_nile.webp">
+                        <p>BLUE NILE</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a id="verde_ubatuba">
-                        <img src="Images/Materiais/verde_ubatuba.webp">
-                        <p>VERDE UBATUBA</p>
+                    <a id="everest_mist">
+                        <img src="Images/Materiais/everest_mist.webp">
+                        <p>EVEREST MIST</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a id="amarelo_maracuja">
-                        <img src="Images/Materiais/amarelo_maracuja.webp">
-                        <p>AMARELO MARACUJÁ</p>
+                    <a id="nero_mist_negresco">
+                        <img src="Images/Materiais/nero_mist_negresco.webp">
+                        <p>NERO MIST / NEGRESCO</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a id="arabesco">
-                        <img src="Images/Materiais/arabesco.webp">
-                        <p>ARABESCO</p>
+                    <a id="white_orion">
+                        <img src="Images/Materiais/white_orion.webp">
+                        <p>WHITE ORION</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a id="bege_bahia">
-                        <img src="Images/Materiais/bege_bahia.webp">
-                        <p>BEGE BAHIA</p>
+                    <a id="bianco_supreme">
+                        <img src="Images/Materiais/bianco_supreme.webp">
+                        <p>BIANCO SUPREME</p>
                     </a>
                 </div>
                 <div class="item">
-                    <a id="blue_fantasi">
-                        <img src="Images/Materiais/blue_fantasi.webp">
-                        <p>BLUE FANTASY</p>
+                    <a id="amarello_ornamental">
+                        <img src="Images/Materiais/amarello_ornamental.webp">
+                        <p>AMARELLO ORNAMENTAL</p>
                     </a>
                 </div>
             </div>
